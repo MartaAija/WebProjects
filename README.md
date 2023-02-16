@@ -31,7 +31,7 @@ Content-Type: application/json
   "description": "This is my awesome web project",
   "URL": "http://myawesomeproject.com"
 }
-
+```
 The API will respond with the newly created web project object:
 
 json
@@ -51,13 +51,16 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/web-projects-api.git
+```
 Install the dependencies:
 
 ```bash
 cd web-projects-api
 npm install
+```
 Start the server:
 
 ```bash
 npm start
+```
 The API will be available at http://localhost:8080/api.
