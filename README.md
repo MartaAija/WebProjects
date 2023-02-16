@@ -34,17 +34,18 @@ Content-Type: application/json
 ```
 The API will respond with the newly created web project object:
 
-json
 
+```bash
 {
   "id": 3,
   "title": "My Awesome Web Project",
   "description": "This is my awesome web project",
   "URL": "http://myawesomeproject.com"
 }
+```
 You can then use the id of the new web project to update or delete it.
 
-Installation
+## Installation
 To run the API locally, you'll need to have Node.js installed. Once you have Node.js installed, you can follow these steps:
 
 Clone the repository:
